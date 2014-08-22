@@ -1,0 +1,23 @@
+@font-face {
+	font-family: myFont;
+	src: url(edwardian.ttf);	
+}
+
+body {
+	color: #0094ff;
+	font-family: Consolas, Edwardian Script ITC;		
+	font-size: 20px;
+}
+
+p {
+	font-weight: bold;
+	padding: 5px;
+	line-height: 5px;	
+}
+
+p:first-letter {
+	font-size: 50px;
+	font-family: myFont, Old English Text MT;
+	font-style: italic;
+}
+

@@ -1,0 +1,41 @@
+body, header, section, h1, div, img {
+	margin: 0;
+	padding: 0;	
+}
+
+#container {
+	width: 640px;
+	height: 280px;
+	background-color: #3B3B3B;	
+	border-radius: 5px;
+	padding: 10px;
+	font: 14px/1.2 Verdana, sans-serif;
+}
+
+header {
+	border-bottom: 1px solid #343434;
+}
+
+section h1 {
+	color: #F8D612;	
+}
+
+header h1 {
+	color: white;
+	font-size: 18px;	
+	text-align: justify;	
+	vertical-align: middle;	
+}
+
+header input {
+	vertical-align: center;		
+}
+
+section strong { 
+   color: #F8F8F8;    
+   font-weight: normal;   
+}
+
+section div {	
+	color: gray;
+}

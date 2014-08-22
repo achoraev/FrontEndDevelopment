@@ -1,0 +1,69 @@
+html, body, div, ul, li, input, button, span, p, h1{
+	margin: 0;
+	padding: 0;
+	font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+	font-size: 16px;
+	list-style-type: none;	
+}
+
+#wrapper {
+	width: 310px;
+	height: 380px;
+	margin-top: 25px;
+	margin-left: 25px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: yellow;
+}
+
+div h1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 1.5em;
+	color: gray;
+	text-align: center;
+}
+
+.me-item {
+	position: relative;
+	float: right;
+	width: 190px;
+	height: 55px;
+	border: 1px solid black;
+	border-radius: 15px;
+	background-color: blue;
+	margin-right: 10px;	
+	margin-bottom: 3px;
+}
+
+.toshko-item {
+	position: relative;
+	float: left;
+	width: 190px;
+	height: 55px;
+	border: 1px solid black;
+	border-radius: 15px;
+	background-color: green;
+	margin-left: 10px;	
+	margin-bottom: 3px;
+}
+
+button {
+	background-color: gray;
+	border: 1px solid white;
+	border-radius: 5px;
+	font-weight: bold;
+	width: 50px;
+	height: 25px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+
+input[type=text] {
+	width: 230px;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}

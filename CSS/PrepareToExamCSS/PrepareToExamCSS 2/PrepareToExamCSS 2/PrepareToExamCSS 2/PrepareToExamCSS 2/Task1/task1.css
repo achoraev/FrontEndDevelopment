@@ -1,0 +1,105 @@
+﻿html, body, div, ul, li, a, span {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'DejaVu Sans Condensed', sans-serif;
+    list-style-type: none;
+}
+
+#wrapper {
+    width: 960px;
+}
+
+ul.msg-bar {
+    display: inline-block;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 50px;
+    width: 560px;
+}
+
+    ul.msg-bar > li {
+        display: inline-block;
+        padding-top: 5px;
+    }
+
+        ul.msg-bar > li a.msg-bar-btn {
+            display: inline-block;
+            color: #0094ff;
+            text-decoration: none;
+            padding: 5px 15px;
+            border: 1px solid black;
+            background: #11ffd2;
+            background: -moz-linear-gradient(top, #aaffef 20%, #11ffd2 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #aaffef), color-stop(100%, #11ffd2));
+            background: -webkit-linear-gradient(top, #aaffef 20%, #11ffd2 100%);
+            background: -o-linear-gradient(top, #aaffef 20%, #11ffd2 100%);
+            background: -ms-linear-gradient(top, #aaffef 20%, #11ffd2 100%);
+            background: linear-gradient(to bottom, #aaffef 20%, #11ffd2 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aaffef', endColorstr='#11ffd2', GradientType=0);
+        }
+
+        ul.msg-bar > li:hover a.msg-bar-btn {
+            background: #00DDB3;
+            border-top: 4px solid #AAFFEF;            
+        }
+
+        ul.msg-bar > li div.msg-bar-content {
+            display: none;
+            position: absolute;
+            left: 0;
+            bottom: 35px;
+            width: 430px;
+            background: #AAFFEF;
+            border: 1px solid black;
+            border-bottom: none;
+            padding: 5px 15px;            
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        ul.msg-bar > li:hover div.msg-bar-content {
+            display: block;           
+        }
+
+        ul.msg-bar > li div.msg-bar-content ul li {
+            margin-top: 5px;      
+        }
+
+span:not(.user) {
+    text-align: right;
+    display: block;
+    margin-left: 100px;
+    border-bottom: 1px solid black;
+    color: #0094FC;
+    padding: 5px 15px;
+}
+
+span.user {
+    border: 1px solid black;
+    border-radius: 100px;
+    float: left;   
+    padding: 5px 15px 5px 25px; 
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    margin: 0;
+    color: #0094FC;
+}
+
+div.msg-bar-content ul li:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+li.me-item span.user {
+  background-image: url(imgs/me.png);
+  background-repeat: no-repeat;
+}
+li.other-item span.user {
+    background-image: url(imgs/male.png);
+}
+
+div.msg-bar-content ul li:last-of-type span:not(.user) {
+  border: none;
+}

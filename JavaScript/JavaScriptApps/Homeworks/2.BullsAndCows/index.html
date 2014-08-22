@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="styles/style.css">
+	<title>BullsAndCows</title>
+	<script type="text/javascript" src='lib/jquery-2.1.1.min.js'></script>
+	<script src="lib/require.js" data-main="app"></script>
+</head>
+
+<body>
+	<div id='intro'>
+		<h1>Bulls and Cows Game</h1>
+		<p>-----------------------------------------------------</p>
+		<p>You must guess the 4 digit number I am thinking of.</p>
+		<p>The number is composed of the digits 1-9.</p>
+		<p>No digit appears more than once.</p>
+		<p>After each of your guesses, I will tell you:</p>
+		<p>The number of bulls (digits in right place)</p>
+		<p>The number of cows (correct digits, but in the wrong place)</p>
+		<p>-----------------------------------------------------</p>
+
+		<div id='wrapper'>
+			<button id='delete'>Delete LocalStorage</button>
+			<br/>
+			<label>Enter guess</label>
+			<input type="text" id="guessInput" />
+		</div>
+	</div>
+<!--	<script type="text/javascript" src='main.js'></script>-->
+</body>
+
+</html>

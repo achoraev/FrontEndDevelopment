@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Loops</title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+    <style>
+        a {
+            text-decoration: none;
+            color: orangered;
+            border: 1px solid white;
+            border-radius: 15px;
+            padding: 5px;
+        }
+
+            a:hover {
+                color: white;
+            }
+    </style>
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script>
+        var numbers = [5, 7, 8, 9, 15, 8, 55, -5, 0, 13, 99, 6, 63];
+        /*try with other numbers */
+        jsConsole.writeLine("Numbers are: ");
+        for (var i = 0; i < numbers.length; i++) {
+            jsConsole.write(numbers[i] + ", ");
+        }
+
+        jsConsole.writeLine("");
+        var minNumber = 100000000;
+        var maxNumber = -100000000;
+        for (var i = 0; i < numbers.length; i++) {
+            if (numbers[i] > maxNumber) {
+                maxNumber = numbers[i];
+            }
+            if (numbers[i] < minNumber) {
+                minNumber = numbers[i];
+            }
+        }
+
+        jsConsole.writeLine("The smallest number is: " + minNumber);
+        jsConsole.writeLine("The biggest number is: " + maxNumber);        
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Functions</title>
+</head>
+<body>    
+    <div id="container"></div>   
+    <script src="script.js"></script>
+	<script>
+		var a, 
+			i,
+			cssSelectors;
+		
+		domModule.appendChildToDom('div', '#container');
+		domModule.appendChildToDom('strong', '#container');
+		domModule.removeChild('div', 'strong');
+		domModule.addHandler('#container', 'click', function(){alert("Clicked")});		
+		a = document.createElement('div');
+        for (i = 0; i < 100; i++) {
+            a.innerHTML = i + '';
+            domModule.appendToBuffer('#container' , a.cloneNode(true));
+        }
+		cssSelectors = domModule.cssSelector('div');
+		console.log('There is ' + cssSelectors.length + ' div elements'); // check console
+	</script>
+</body>
+</html>

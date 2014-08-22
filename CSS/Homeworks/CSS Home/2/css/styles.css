@@ -1,0 +1,26 @@
+thead tr th {
+color: white;
+text-align: left;
+background-color: #54B705;
+}
+.smCell {
+width: 20%;
+}
+.bigCell {
+width: 30%;
+}
+table tr td{
+padding: 0px;
+border: 0px solid gray;
+}
+tr:nth-child(2n){
+	background-color: #EDECD7;
+}
+tr:nth-child(2n+1){	
+	background-color: #FFFFFF;
+}
+img {
+width: 20px;
+height: 15px;
+float: left;
+}

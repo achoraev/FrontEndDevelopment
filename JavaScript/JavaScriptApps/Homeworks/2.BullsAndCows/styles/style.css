@@ -1,0 +1,36 @@
+#intro {
+	width: 1000px;
+	height: auto;
+	margin: 50px;
+	padding-bottom: 20px;
+	border: 1px solid blue;
+	border-radius: 20px;
+	text-align: center;	
+	background-color: lightgreen;
+}
+
+#highScoreList {
+	width: auto;
+	border: 1px solid blue;
+	border-radius: 15px;
+	background-color: lightblue;
+	text-align: center;
+	font-weight: bold;
+}
+
+body {
+	background-color: lightblue;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+	border: 1px solid red;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+li {
+	list-style-type: none;
+}

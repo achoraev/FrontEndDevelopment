@@ -1,0 +1,86 @@
+﻿html, body, header, div, fieldset, img, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 660px;
+    height: 485px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+#topBorder {
+    width: 620px;
+    height: 480px;
+    border-top: 2px solid black;
+    margin-left: 15px;
+}
+
+#leftFrame {
+    width: 440px;
+    height: 420px;
+    margin-top: 10px;
+    margin-left: -10px;
+    border: 2px solid black;
+    float: left;
+}
+
+header h1 {
+    margin-left: 20%;
+    font-size: 19px;
+    line-height: 35px;
+}
+
+a {
+    color: #1f9ff4;
+    font-weight: bold;
+}
+
+.box {
+    width: 210px;
+    height: 130px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+    float: left;
+    border: 0px solid black;
+}
+
+.secondRow {
+    margin-top: 3px;
+}
+
+img {
+    width: 90px;
+    height: 60px;
+    float: left;
+}
+
+fieldset {
+    width: 195px;
+    height: 130px;
+    margin: 3px;
+    padding: 0 5px;
+    border: 2px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+}
+
+legend {
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+#sliders {
+    width: 200px;
+    height: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-left: 445px;
+    margin-top: 80px;
+}

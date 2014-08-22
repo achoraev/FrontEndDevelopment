@@ -1,0 +1,10 @@
+{
+  "name": "TwoGirlsOnePath",
+  "version": "0.0.0",
+  "description": "TwoGirlsOnePath",
+  "main": "app.js",
+  "author": {
+    "name": "Anjel",
+    "email": ""
+  }
+}

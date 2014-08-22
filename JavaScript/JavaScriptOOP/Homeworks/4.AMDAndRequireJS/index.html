@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>ComboBox Control</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<script src="libraries/require.js" data-main="scripts/app"></script>
+</head>
+<body>   
+    <div id='wrapper'> 
+    <script id="comboBoxTemplate" type="text/x-handlebars-template">              
+        <div class='firstContainer'>
+        <h2>Combobox 1</h2>
+        {{#each people}}
+            <div class="person-item" id="person-item-{{id}}">
+                <img src="{{avatarUrl}}" alt="{{name}}" width="100px" /><br/>
+                <strong class="person-name">{{name}}</strong><br/>
+                <span class="person-age">Age: {{age}}</span>                
+            </div>
+        {{/each}}
+        </div>    
+    </script>
+
+    <script id="comboBoxTemplate2" type="text/x-handlebars-template">
+        <div class='secondContainer'>
+        <h2>Combobox 2</h2>
+        {{#each people}}
+        <div class="person" id="{{id}}">
+            <p class="person-info">
+                <strong>Name: {{name}}</strong><br/>
+                <strong>And is {{age}} years old</strong>
+            </p>
+        </div>
+        {{/each}}
+        </div>
+    </script>
+</div>
+</body>
+</html>

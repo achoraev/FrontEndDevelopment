@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Handlebars</title>
+    <script src="handlebars-v1.3.0.js"></script>
+</head>
+<body>
+    <div id="container">
+        <script type="text/x-handlebars-template" id="template">
+            <select>
+                {{#each items}}
+                <option value="{{value}}">{{text}}</option>
+                {{/each}}
+            </select>
+        </script>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.VanillaJavascript", "VanillaJavascript\1.VanillaJavascript.csproj", "{D491FA10-6D81-482C-A1D7-9ECE634FA217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.jQueryTask", "jQueryTask\2.jQueryTask.csproj", "{AED29502-9BB0-4C5E-B25E-D0BB6EC3A139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.HandleBars", "HandleBars\3.HandleBars.csproj", "{96D7FABC-7BE8-404B-AC50-D2E896826A2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D491FA10-6D81-482C-A1D7-9ECE634FA217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D491FA10-6D81-482C-A1D7-9ECE634FA217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D491FA10-6D81-482C-A1D7-9ECE634FA217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D491FA10-6D81-482C-A1D7-9ECE634FA217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED29502-9BB0-4C5E-B25E-D0BB6EC3A139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED29502-9BB0-4C5E-B25E-D0BB6EC3A139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED29502-9BB0-4C5E-B25E-D0BB6EC3A139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED29502-9BB0-4C5E-B25E-D0BB6EC3A139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D7FABC-7BE8-404B-AC50-D2E896826A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D7FABC-7BE8-404B-AC50-D2E896826A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D7FABC-7BE8-404B-AC50-D2E896826A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D7FABC-7BE8-404B-AC50-D2E896826A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

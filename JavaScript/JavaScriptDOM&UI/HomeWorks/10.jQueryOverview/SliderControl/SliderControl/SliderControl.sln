@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.SliderControl", "SliderControl\1.SliderControl.csproj", "{6950E2A0-0BF9-4091-8CD3-3514CC010A25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.ChangeBackground", "ChangeBackground\4.ChangeBackground.csproj", "{0526548A-607B-4A55-B07F-D86031633B72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.GeneratTable", "3.GeneratTable\3.GeneratTable.csproj", "{07C9AC55-06E9-48A8-99B3-D80F2D302A06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.InsertElement", "InsertElement\2.InsertElement.csproj", "{9F0F0F0A-75A0-43BF-9886-78A4EC475C51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6950E2A0-0BF9-4091-8CD3-3514CC010A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6950E2A0-0BF9-4091-8CD3-3514CC010A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6950E2A0-0BF9-4091-8CD3-3514CC010A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6950E2A0-0BF9-4091-8CD3-3514CC010A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0526548A-607B-4A55-B07F-D86031633B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0526548A-607B-4A55-B07F-D86031633B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0526548A-607B-4A55-B07F-D86031633B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0526548A-607B-4A55-B07F-D86031633B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C9AC55-06E9-48A8-99B3-D80F2D302A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C9AC55-06E9-48A8-99B3-D80F2D302A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C9AC55-06E9-48A8-99B3-D80F2D302A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C9AC55-06E9-48A8-99B3-D80F2D302A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F0F0F0A-75A0-43BF-9886-78A4EC475C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F0F0F0A-75A0-43BF-9886-78A4EC475C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F0F0F0A-75A0-43BF-9886-78A4EC475C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F0F0F0A-75A0-43BF-9886-78A4EC475C51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

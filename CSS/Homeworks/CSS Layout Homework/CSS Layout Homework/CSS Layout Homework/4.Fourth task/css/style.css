@@ -1,0 +1,123 @@
+﻿html, body, header, nav, div, ul, li, section, article, aside {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#wrapper {
+    width: 900px;
+    height: 600px;
+    border: 2px solid black;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 5px;
+    background-color: lightgray;
+}
+
+header nav {
+    float: left;
+    width: 140px;
+    height: 600px;
+    border: 0px solid black;
+}
+
+section {
+    float: left;
+    width: 600px;
+    height: 580px;
+    border: 1px solid gray;
+    margin-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+}
+
+aside {
+    width: 140px;
+    height: 590px;
+    border: 0px solid black;
+    margin-top: 2px;
+    margin-left: 753px;
+    box-sizing: content-box;
+    background-color: lightgray;
+}
+
+.bordo {
+    color: red;
+    margin-top: 10px;
+}
+
+.home {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+img {
+    float: left;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+aside p {
+    background-color: gray;
+    color: white;
+    padding-left: 5px;
+    margin: 0;
+}
+
+h2 {
+    background-color: gray;
+    color: white;
+    padding-left: 5px;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a {
+    color: red;
+}
+
+input[type=search] {
+    width: 100px;
+}
+
+.inlineDiv {
+    font-size: 13px;
+}
+
+.buttons {
+    width: 100px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+aside div {
+    border: 1px solid gray;
+    margin-bottom: 2px;
+    padding: 3px 0;
+    text-align: center;
+    background-color: white;
+}
+
+.plus {
+    border: 0px;
+    width: 100px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.prev {
+    border: 1px solid black;
+    width: 100px;
+    height: 18px;
+}
+
+.next {
+    border: 1px solid black;
+    width: 80px;
+    height: 18px;
+}

@@ -1,0 +1,17 @@
+table, tr, th, td { text-align: left;
+background-color: grey;
+font-weight: bold;
+}
+th{color: #C0C0C0;
+font-size:20px;
+}
+.gr{color: #C0C0C0;
+}
+.yel {color: #FFFF99;
+}
+.red {color:red;
+}
+.or {color:orange;
+}
+.it{font-style: italic;
+color:white}

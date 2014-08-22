@@ -1,0 +1,117 @@
+html, body, div, ul, li, a, table, thead, tbody, tr, td {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, 'Times New Roman', Nimbus Roman No9 L,Freeserif, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+#wrapper {
+    width: 960px;
+    padding: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4em;
+}
+
+.tab-strip {
+    position: relative;
+    width: 340px;
+    height: 230px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+    .tab-strip li {
+        display: inline-block;
+    }
+
+        .tab-strip li div {
+            display: none;
+        }
+
+.tab-btn {
+    background: -webkit-linear-gradient(top, #ebebeb 0%,#afafaf 100%); /* Chrome10+,Safari5.1+ */
+    border-radius: 5px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px 13px;
+    margin: 0;
+}
+
+ul.tab-strip li.current:last-child {
+    border-right: none;
+}
+
+.current a.tab-btn {
+    display: inline-block;
+    position: relative;
+    width: 73px;
+    height: 25px;
+    margin: 0;
+    background: white;
+    border-radius: 0px;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+ul.tab-strip li.current div.tab-content {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+}
+
+div.tab-content ul > li {
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 10px;
+}
+
+div.tab-content ul li ul li {
+    display: list-item;
+    list-style-type: lower-alpha;
+    margin-left: 25px;
+}
+
+a.tab-btn:hover {
+    background: #EEE;
+}
+
+div.tab-content {
+    margin-top: 15px;
+    width: 300px;
+}
+
+    div.tab-content thead tr {
+        display: inline-block;
+        width: 300px;
+        background: -webkit-linear-gradient(#ABABAB, #EEE); /* Chrome10+,Safari5.1+ */
+    }
+
+    div.tab-content thead th {
+        width: 100px;
+        height: 26px;
+        text-align: center;
+        border: 1px solid black;
+    }
+
+    div.tab-content tbody tr {
+        display: inline-block;
+        width: 300px;
+        background: #EEE;
+    }
+
+    div.tab-content tbody td {
+        width: 100px;
+        height: 26px;
+        border: 1px solid black;
+        padding-left: 5px;
+    }

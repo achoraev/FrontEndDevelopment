@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrepareToExamCSS - Variant1", "PrepareToExamCSS - Variant1\PrepareToExamCSS - Variant1.csproj", "{89834E04-B150-43B3-B692-FB65F0826CA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrepareToExamCSS - Variant2", "..\PrepareToExamCSS - Variant2\PrepareToExamCSS - Variant2\PrepareToExamCSS - Variant2.csproj", "{B03CA7C4-8E13-423F-9484-652823CDF8EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89834E04-B150-43B3-B692-FB65F0826CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89834E04-B150-43B3-B692-FB65F0826CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89834E04-B150-43B3-B692-FB65F0826CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89834E04-B150-43B3-B692-FB65F0826CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B03CA7C4-8E13-423F-9484-652823CDF8EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B03CA7C4-8E13-423F-9484-652823CDF8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B03CA7C4-8E13-423F-9484-652823CDF8EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B03CA7C4-8E13-423F-9484-652823CDF8EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

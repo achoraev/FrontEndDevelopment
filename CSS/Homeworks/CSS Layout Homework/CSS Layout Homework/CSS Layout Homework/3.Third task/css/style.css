@@ -1,0 +1,53 @@
+body, header, section, h1, div, img, form, input {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 640px;
+    height: 280px;
+    background-color: #3B3B3B;
+    border-radius: 5px;
+    padding: 10px;
+    font: 14px/1.2 Verdana, sans-serif;
+}
+
+header {
+    border-bottom: 1px solid #343434;    
+    background: linear-gradient(2deg, transparent 5%, #3B3B3B 30%), linear-gradient(-2deg, transparent 5%, #3B3B3B 30%), linear-gradient(to bottom, #000000, #000000);
+}
+
+section h1 {
+    color: #F8D612;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+header input {
+    vertical-align: middle;
+    margin-right: 12px;
+    margin-top: 5px;
+}
+
+section strong {
+    color: #F8F8F8;
+    font-weight: normal;
+}
+
+section div {
+    color: gray;
+}
+
+form {
+    height: 50px;
+}
+
+    form img {
+        float: left;
+    }

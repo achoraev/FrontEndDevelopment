@@ -1,0 +1,102 @@
+html, body, div, ul, li, h2, h1, strong, span, input, button {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: Arial;
+    list-style-type: none;
+}
+
+#root {
+    width: 615px;
+    position: relative;
+}
+
+    #root h1 {
+        text-align: center;
+        color: #2AA0BD;
+        font-size: 1.9em;
+        font-style: italic;
+        margin: 10px 0;
+    }
+
+div {
+    float: left;
+    margin-left: 5px;
+}
+
+    div.chat-container {
+        width: 300px;
+        height: 500px;
+        /*background: -webkit-linear-gradient(top, #4AE471 0%, #F1FFBC 100%);*/
+        background: #4ae471; /* Old browsers */
+        background: -moz-linear-gradient(top, #4ae471 0%, #4ae471 42%, #f1ffbc 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4ae471), color-stop(42%,#4ae471), color-stop(100%,#f1ffbc)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #4ae471 0%,#4ae471 42%,#f1ffbc 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #4ae471 0%,#4ae471 42%,#f1ffbc 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #4ae471 0%,#4ae471 42%,#f1ffbc 100%); /* IE10+ */
+        background: linear-gradient(to bottom, #4ae471 0%,#4ae471 42%,#f1ffbc 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ae471', endColorstr='#f1ffbc',GradientType=0 ); /* IE6-9 */
+        border-radius: 5px;
+        margin-top: 10px;
+        border: 1px solid #A3D4AF;
+    }
+
+        div.chat-container h2 {
+            color: #2AA0BD;
+            font-size: 1.5em;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+    div div.sent-message {
+        bottom: 0;
+        position: absolute;
+    }
+
+strong, span {
+    color: #2AA0BD;
+    display: block;
+}
+
+strong {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.other {
+    text-align: right;
+}
+
+div.messages ul li {
+    width: 280px;
+    overflow-wrap: break-word;
+}
+
+    div.messages ul li:first-of-type {
+        border-bottom: 1px solid black;
+    }
+
+div.sent-message input {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 15px;
+    width: 185px;
+    height: 35px;
+    color: #2AA0BD;
+    border: 1px solid #A3D4AF;
+}
+
+div.sent-message button {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #2AA0BD;
+    width: 80px;
+    height: 35px;
+    border: 1px solid #A3D4AF;
+    background: -webkit-linear-gradient(top, #4AE471 0%, #F1FFBC 100%);
+}
+
+    div.sent-message button:hover {
+        background: #F1FFBC;
+    }

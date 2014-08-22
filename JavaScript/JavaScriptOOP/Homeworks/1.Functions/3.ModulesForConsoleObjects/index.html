@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Functions</title>
+</head>
+<body>    
+    <div id="container"></div>   
+    <script src="script.js"></script>
+	<script>
+        alert("Check console!");
+        specialConsole.writeLine("Message: hello");        
+        specialConsole.writeLine("Message: {0}", "hello");
+        // some tests
+        specialConsole.writeLine("Message: {0}{1}{0}{2}{3}{4}{5}{6}{7}", "hello", "1", "2" , "3", "4","5","6","7");
+        specialConsole.writeError("Error: {0}", "Something happened");
+		specialConsole.writeWarning("Warning: {0}", "A warning");
+		specialConsole.writeError("Error: Something happened");        
+		specialConsole.writeWarning("Warning: A warning");
+    </script>	
+</body>
+</html>

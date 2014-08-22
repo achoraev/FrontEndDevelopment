@@ -1,0 +1,21 @@
+﻿body {
+    width: 800px;
+    height: 600px;
+    margin: 20px auto 0;
+}
+
+    body label img {
+        width: 128px;
+        height: 96px;
+        cursor: pointer;
+    }
+
+    body input,
+    body input + img {
+        display: none;
+    }
+
+        body input:checked + img {
+            display: block;
+            width: 640px;
+        }

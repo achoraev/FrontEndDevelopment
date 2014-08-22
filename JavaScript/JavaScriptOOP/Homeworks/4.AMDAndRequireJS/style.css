@@ -1,0 +1,17 @@
+.firstContainer {                                    
+    width: 300px;
+    height: auto;              
+}
+
+.secondContainer {                    
+    width: 300px;
+    height: auto;                  
+}
+
+.person {               
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+}

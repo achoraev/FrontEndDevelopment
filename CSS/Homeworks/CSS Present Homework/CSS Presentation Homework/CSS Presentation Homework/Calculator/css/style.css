@@ -1,0 +1,216 @@
+﻿body, header, section, div, ul, li, input, img {
+    padding: 0px;
+    margin: 0px;
+    font-family: Consolas, Segoe UI;
+    border: 0px;
+    list-style: none;
+}
+
+    body .back {
+        padding: 0px;
+        margin: 50px;
+        width: 430px;
+        height: 380px;
+        border: 1px solid #AAB6C2;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background-color: #B8DCFF;
+        font-size: 14px;
+        position: fixed;
+    }
+
+.insideBox {
+    width: 418px;
+    height: 345px;
+    border: 0px solid gray;
+    padding: 0px;
+    position: fixed;
+    margin-top: 80px;
+    margin-left: 57px;
+    background-color: #D5E1ED;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+    a:hover {
+        color: red;
+    }
+
+img {
+    width: 430px;
+    height: 30px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.nav-box {
+    width: 418px;
+    height: 18px;
+    margin-top: 0px;
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(#F0F6FB 0%, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+    border-bottom: 1px solid #AAB6C2;
+}
+
+.nav-list li {
+    display: inline;
+    text-align: center;
+    padding-left: 10px;
+    font-size: 12px;
+    font-family: Arial bold;
+}
+
+input[type=text] {
+    width: 395px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: right;
+    vertical-align: text-bottom;
+    text-decoration: none;
+    color: black;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #AAB6C2;
+    background: linear-gradient(#E6EDFD, #FBFCFE);
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.binaryBox {
+    width: 395px;
+    height: 60px;
+    border: 1px solid #AAB6C2;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 0px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+div table {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 75%;
+    border: 0px solid darkgray;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+td {
+    width: 46px;
+}
+
+.gray {
+    color: gray;
+}
+
+.blue {
+    color: #082852;
+}
+
+.hex {
+    width: 70px;
+    height: 175px;
+    font-weight: bold;
+    float: left;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.radio {
+    width: 60px;
+    height: 81px;
+    color: #082852;
+    border: 1px solid #AAB6C2;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.radio, ul, li, input[type=radio] {
+    margin-left: 0px;
+    margin-top: 2px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+input[type=radio], label {
+    vertical-align: middle;
+    padding: 2px;
+}
+
+#buttons {
+    width: 320px;
+    height: 180px;
+    border: 0px solid #082852;
+    float: left;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.smallButton {
+    width: 35px;
+    height: 25px;
+    background: white;
+    border: 1px solid #AAB6C2;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    float: left;
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    color: #082852;
+    margin-left: 5px;
+    margin-bottom: 6px;
+}
+
+.disable {
+    background-color: #D5E1ED;
+    font-size: 13px;
+}
+
+.enabled {
+    background: linear-gradient(#F0F6FB 0%, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+}
+
+.enabledDouble {
+    height: 55px;
+    position: relative;
+    float: right;
+}
+
+.enabledWhite {
+    background: white;
+}
+
+.enabledWhiteDouble {
+    width: 75px;
+    background: white;
+}
+
+    .enabled:hover, .enabled:focus,
+    .enabledWhite:hover, .enabledWhite:focus,
+    .enabledWhiteDouble:hover, .enabledWhiteDouble:focus,
+    .enabledDouble:hover, .enabledDouble:focus {
+        border-color: #F5D50F;
+        background: -webkit-linear-gradient(#FEF5EB 0%, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+        background: -moz-linear-gradient(#FEF5EB 0%, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+        background: -o-linear-gradient(#FEF5EB 0%, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+        background: linear-gradient(#FEF5EB 0%, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+    }

@@ -1,0 +1,46 @@
+﻿html, body, div, nav, header, ul, li, a {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+#wrapper {
+    width: 960px;
+    height: 300px;
+    background: -webkit-linear-gradient(top,  #023047 0%, #73CCF9 100%)
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+}
+
+nav > ul {   
+    position: relative;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+li ul {
+    display: none;
+}
+
+li:hover > ul {
+    display: block;
+    position: absolute;
+}
+
+li.selected {
+    display: inline-block;
+}
+
+li.selected ul li:hover ul {
+    display: block;  
+    left: 10px;  
+    position: absolute;
+}

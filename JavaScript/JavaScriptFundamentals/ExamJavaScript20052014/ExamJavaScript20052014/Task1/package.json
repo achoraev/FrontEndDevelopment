@@ -1,0 +1,10 @@
+{
+  "name": "Task1",
+  "version": "0.0.0",
+  "description": "Task1",
+  "main": "app.js",
+  "author": {
+    "name": "Anjel",
+    "email": ""
+  }
+}

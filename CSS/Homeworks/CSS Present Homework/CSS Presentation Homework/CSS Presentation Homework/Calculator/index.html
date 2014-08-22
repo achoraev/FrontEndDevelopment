@@ -1,0 +1,358 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <div class="back">
+            <img src="css/images/bg.png" alt="logo calculator" />
+        </div>
+    </header>
+    <section class="insideBox">
+        <div class="nav-box">
+            <ul class="nav-list">
+                <li>
+                    <a href="#">V</a>iew
+                </li>
+                <li>
+                    <a href="#">E</a>dit
+                </li>
+                <li>
+                    <a href="#">H</a>elp
+                </li>
+            </ul>
+        </div>
+        <div>
+            <input type="text" value="8854455" />
+        </div>
+        <div class="binaryBox">
+            <table>
+                <tr class="blue">
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                </tr>
+                <tr class="gray">
+                    <td>63</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>47</td>
+                    <td></td>
+                    <td></td>
+                    <td>32</td>
+                </tr>
+                <tr class="blue">
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                </tr>
+                <tr class="gray">
+                    <td>31</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>15</td>
+                    <td></td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+            </table>
+        </div>
+        <div class="hex">
+            <div class="radio">
+                <form>
+                    <ul>
+                        <li>
+                            <input id="hex" type="radio" name="hexlist" />
+                            <label for="hex">Hex</label>
+                        </li>
+                        <li>
+                            <input id="dec" type="radio" name="hexlist" checked="checked" />
+                            <label for="hex">Dec</label>
+                        </li>
+                        <li>
+                            <input id="oct" type="radio" name="hexlist" />
+                            <label for="hex">Oct</label>
+                        </li>
+                        <li>
+                            <input id="bin" type="radio" name="hexlist" />
+                            <label for="hex">Bin</label>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            <div class="radio">
+                <form>
+                    <ul>
+                        <li>
+                            <input id="qword" type="radio" name="words" checked="checked" />
+                            <label for="qword">Qword</label>
+                        </li>
+                        <li>
+                            <input id="dword" type="radio" name="words" />
+                            <label for="dword">Dword</label>
+                        </li>
+                        <li>
+                            <input id="word" type="radio" name="words" />
+                            <label for="word">Word</label>
+                        </li>
+                        <li>
+                            <input id="byte" type="radio" name="words" />
+                            <label for="byte">Byte</label>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+        <div id="buttons">
+            <form>
+                <ul>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton disable" disabled="disabled" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabled" value="Mod" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton disable" disabled="disabled" value="A" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton disable" disabled="disabled" value="MC" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton disable" disabled="disabled" value="MR" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton disable" disabled="disabled" value="MS" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton disable" disabled="disabled" value="M+" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton disable" disabled="disabled" value="M-" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabled" value="(" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabled" value=")" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton disable" disabled="disabled" value="B" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabled" value="←" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabled" value="CE" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabled" value="C" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabled" value="±" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton disable" disabled="disabled" value="√" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabled" value="RoL" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabled" value="RoR" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton disable" disabled="disabled" value="C" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabledWhite" value="7" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabledWhite" value="8" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabledWhite" value="9" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabled" value="/" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton disable" disabled="disabled" value="%" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabled" value="Or" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabled" value="XoR" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton disable" disabled="disabled" value="D" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabledWhite" value="4" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabledWhite" value="5" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabledWhite" value="6" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabled" value="*" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton disable" disabled="disabled" value="1/x" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabled" value="Lsh" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabled" value="Rsh" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton disable" disabled="disabled" value="E" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabledWhite" value="1" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabledWhite" value="2" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabledWhite" value="3" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabled" value="-" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabledDouble" value="=" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabled" value="Not" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabled" value="And" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton disable" disabled="disabled" value="F" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabledWhiteDouble" value="0" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton disable" disabled="disabled" value="." />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="button" class="smallButton enabled" value="+" />
+                        </div>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

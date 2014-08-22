@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Forms</title>
+</head>
+<body>
+	<fieldset>
+	<legend>Form</legend>
+	<form>
+	<label>Member name:</label>
+	<input id="memberName" type="text" required="true" placeholder="First and Last name">*req</input>
+	<br/>
+	<label>E-mail:</label>
+	<input id="emailInput" 
+			type="email" 
+			required="true" 
+			pattern="[a-zA-Z0-9_]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}"
+			placeholder="sample@email.com">*req</input>
+	<br/>
+	<label>School:</label>
+	<input id="school" type="text" required="true">*req</input>
+	<br/>
+	<input type="image" value="submit" src="submit.jpg" autofocus></input>
+	</form>
+	</fieldset>
+</body>
+</html>

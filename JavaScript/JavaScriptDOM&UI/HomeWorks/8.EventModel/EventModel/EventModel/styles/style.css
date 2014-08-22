@@ -1,0 +1,54 @@
+﻿ul {
+    width: 250px;
+    border: 1px solid lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+    ul li {
+        list-style-type: none;
+        display: block;
+        border: 1px solid lightgray;
+        height: 40px;
+        cursor: pointer;
+        vertical-align: middle;
+        line-height: 40px;
+        padding: 0 0 0 10px;
+    }
+
+        ul li:last-child {
+            border: none;
+        }
+
+.completed {
+    color: lightgray;
+    text-decoration: line-through;
+    background-color: lightyellow;
+}
+
+#hidden-notefield {
+    display: none;
+}
+
+#notefield {
+    display: block;    
+}
+
+input[type="text"] {
+    width: 94%;
+}
+
+button {
+    border: 1px solid lightgray;
+}
+
+.buttonClose {
+    float: right;
+    margin: 0 10px 0 0;
+    background: url("../images/del1.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    display: block;
+    float: right;
+    margin: 15px 10px 0 0;
+}

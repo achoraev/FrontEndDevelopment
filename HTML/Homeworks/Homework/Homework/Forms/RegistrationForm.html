@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+        p {
+            text-align: right;
+        }
+
+        td {
+            padding: 5px;                  
+        }
+
+        table {
+            border-spacing: 0px;           
+            border-collapse: separate;
+        }
+
+        textarea {
+            width: 380px;
+        }
+    </style>
+</head>
+<body>
+    <form method="get" action="apply.php">
+        <fieldset style="width: 555px">
+            <legend>Registration Form</legend>
+            <table border="1" style="width: 550px">  
+                <colgroup>
+                    <col  style="width:150px" />
+                </colgroup>              
+                <tr>
+                    <td>
+                        <p>Last name:</p>
+                    </td>
+                    <td colspan="3">
+                        <input id="lastName" style="width: 380px" type="text" placeholder="Last name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>First name:</p>
+                    </td>
+                    <td colspan="3">
+                        <input id="firstName" style="width: 380px" type="text" placeholder="First name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Address:</p>
+                    </td>
+                    <td colspan="3">
+                        <textarea id="address"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>City:</p>
+                    </td>
+                    <td>
+                        <input id="city" type="text" placeholder="City" />
+                    </td>
+                    <td>
+                        <p>State:</p>
+                    </td>
+                    <td>
+                        <input id="state" type="text" placeholder="State" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Zip/Postal Code:</p>
+                    </td>
+                    <td colspan="3">
+                        <input id="zip" type="number" min="0" style="width: 380px"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Country:</p>
+                    </td>
+                    <td colspan="3">
+                        <select>
+                            <option id="country" selected>Bulgaria</option>
+                            <option>United Kingdom</option>
+                            <option>Greece</option>
+                            <option>Turkiye</option>
+                            <option>Romania</option>
+                            <option>Serbia</option>
+                            <option>Makedonia</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Phone(country code, area code, number):</p>
+                    </td>
+                    <td colspan="3">
+                        <label>(+</label>
+                        <input title="country code" id="countrycode" type="tel" pattern="\+[0-9]{0,3}" size="4" placeholder="359" />
+                        <label>)</label>
+                        <input title="area code" id="areacode" type="tel" pattern="\+[0-9]{0,2}" size="3" placeholder="88" />
+                        <label>-</label>
+                        <input title="number" id="number" type="tel" pattern="\+[0-9]{7}" size="8" placeholder="1234567" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>E-mail:</p>
+                    </td>
+                    <td colspan="3">
+                        <input id="emailInput"
+                            title="E-mail"
+                            type="email"
+                            required="required"
+                            pattern="[a-zA-Z0-9_]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}"
+                            placeholder="sample@email.com" style="width: 380px"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Birthday:</p>
+                    </td>
+                    <td colspan="3" style="text-align: center">
+                        <label>Month</label>
+                        <input id="month" type="number" min="1" max="12" />
+                        <label>Day</label>
+                        <input id="day" type="number" min="1" max="31" style="width: auto" />
+                        <label>Year(4 digit)</label>
+                        <input id="year" type="number" required="required" min="1" max="2014" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Gender:</p>
+                    </td>
+                    <td colspan="3">
+                        <select>
+                            <option selected="selected">Male</option>
+                            <option>Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Starting Date:</p>
+                    </td>
+                    <td colspan="3">
+                        <input name="Date" type="radio" id="sp" value="sp" />
+                        <label for="sp">Spring 2006</label>
+                        <input name="Date" type="radio" id="su" value="su" />
+                        <label for="su">Summer 2006</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Comments/Questions:</p>
+                    </td>
+                    <td colspan="3">
+                        <textarea id="comments"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="background-color: lightblue; text-align: center" colspan="4">
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Clear This Form" />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
