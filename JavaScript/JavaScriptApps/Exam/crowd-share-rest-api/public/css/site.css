@@ -1,0 +1,45 @@
+#chatbox {
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    background: #fff;
+    height: 270px;
+    width: 430px;
+    border: 1px solid #ACD8F0;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+#post-form {
+    margin: 0;
+    padding-bottom: 25px;
+    background: #EBF4FB;
+    width: 500px;
+    border: 1px solid #ACD8F0;
+    border-radius: 15px;
+}
+
+#chatbox {
+    text-align: right;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    background: #fff;
+    height: 200px;
+    width: 300px;
+    border: 1px solid #ACD8F0;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+#menu {
+	align-content: flex-start;
+    padding: 12.5px 25px 12.5px 25px;
+}
+
+#usermsg {
+    width: 395px;
+    height: 21px;
+    border: 1px solid #ACD8F0;
+}

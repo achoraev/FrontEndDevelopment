@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Telerik Academy Courses</title>
+	<!--    <link rel="stylesheet" href="../css/bootstrap.css">-->
+	<link rel="stylesheet" href="css/site.css">
+	<script src="libs/require.js" data-main="main"></script>
+</head>
+
+<body ng-app="app">
+	<header class="nav navbar">
+		<div class="container">
+			<!--			<h1 class="text-center">JS Apps Crowd Sharing</h1>	-->
+			<div id="main-container">
+				<!--			load user forms-->
+			</div>
+		</div>
+	</header>
+</body>
+<section class="container text-center">
+	<h2 id="total-posts">Last 100 posts:</h2>
+	<div id="posts">
+		<div id="post-form">
+						<h1>Welcome to list</h1>				
+			<div id="menu">
+				<p class="welcome">Welcome, <strong class="username-box"></strong>!</p>
+				<p class="logout">
+					<input type="button" id="exit-btn" class="btn" value="Log out" />
+				</p>
+			</div>
+			<div id="chatbox"></div>
+			<label>Title</label>
+			<input type="text" id="title"/>
+			<input name="usermsg" type="text" id="body" size="63" />
+			<input type="button" id="submitmsg" class="btn" value="Send" />
+		</div>
+		<div class="well">
+		</div>
+	</div>
+</section>
+<footer>
+	<h4 class="text-center">
+        &copy; Telerik Academy 2014
+    </h4>
+</footer>
+<script src="libs/jquery.js"></script>
+<script>
+	var apiURL = "http://localhost:3000";
+	$.get(apiURL + "/post")
+		.then(function (result) {
+			var totalPosts = result.length;
+			var $postsContainer = $('#posts');
+
+			for (var i = 0; i < totalPosts; i++) {
+				var currentPost = result[i];
+				var well = $('<div />').addClass('well').text(currentPost.title + ': "' + currentPost.body + '" by ' + currentPost.user.username).appendTo('#chatbox');
+			}
+		});
+</script>
+
+</html>
